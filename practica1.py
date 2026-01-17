@@ -6,13 +6,14 @@ salida 3+3+3+3= 12
 
 """
 
-a=3
-b=4
+a = 3
+b = 4
 
-con='0'
-res= '0'
+x = 0
+resultado = 0
 
-while  con < b :
-   res = res + a
-   con = con + 1
-print(res)
+while x < b:
+    resultado = resultado + a
+    x = x + 1
+
+print(resultado)
